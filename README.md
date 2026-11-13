@@ -154,8 +154,8 @@ dataset/
 │   ├── image_002.jpg
 │   └── ...
 └── annotations/
-    ├── instances_train2017.json
-    └── instances_val2017.json
+    ├── instances_train.json
+    └── instances_val.json
 ~~~
 
 Convert YOLO annotations to COCO JSON before training. Ensure filenames, image IDs, category IDs, and bounding boxes match the images. COCO boxes use [x, y, width, height] in pixels.
